@@ -1,0 +1,53 @@
+input:enabled
+{
+ background-color:green;
+}
+input:disabled
+{
+background-color: red;
+}
+
+input:checked 
+{
+accent-color: green;
+ } 
+ input :valid
+ {
+                    color: bisque;
+ }
+ input-invalid
+ {
+                    color: brown;
+ }
+p:empty
+{
+width: 150px;
+height: 15px; background-color:red;
+}
+.main-box 
+{ 
+                    height: 200px;
+                    width: 706px;
+                    border: 2px solid Oblue;
+                    font-style: oblique;
+                    color: blue;
+}         
+
+.sub-box 
+{ 
+                    height: 200px;
+                    width: 706px;
+                    border: 2px solid Oblue;
+                    color: blueviolet;
+}
+
+.div p:last-of-type
+{
+                    color:red;
+
+}
+
+.div:last-child
+{
+color: green;
+}
